@@ -1,3 +1,5 @@
+@import "one";
+
 nav {
   a{
     color: $my_color;
@@ -5,4 +7,8 @@ nav {
       color: darken($my_color, 10%);
     }
   }
+}
+
+section {
+  background-color: lighten($new_color, 10%);
 }
