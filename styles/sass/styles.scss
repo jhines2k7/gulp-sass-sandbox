@@ -1,12 +1,3 @@
 @import "compass/reset";
-
-$my_color: #BADA55;
-
-nav {
-  a{
-    color: $my_color;
-    &:hover {
-      color: darken($my_color, 10%);
-    }
-  }
-}
+@import "one";
+@import "two";
